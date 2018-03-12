@@ -8,4 +8,4 @@ performant is this function?
 
 # Implementation Notes
 
-Because we have to check every element in every nested array, this solution has an exponential time complexity of O(k^n) where n is the dimensionality of the array. Because of this, the function is not especially performant. An array with a large dimensional depth would leave us especially vulnerable to a stack overflow error.
+Because we have to check every element in every nested array, this solution has a worst-case exponential time complexity of O(n^n) where n is the dimensionality of the array. Because of this, the function is not especially performant. An array with a large dimensional depth would leave us especially vulnerable to a stack overflow error.
