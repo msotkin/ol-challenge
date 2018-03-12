@@ -1,0 +1,19 @@
+{
+  "name": "open-listings",
+  "version": "1.0.0",
+  "description": "Open Listings Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "mock-fs": "^4.4.2"
+  }
+}
