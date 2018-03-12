@@ -10,4 +10,4 @@ would you solve the problem? Keep in mind our team is on a short deadline.
 
 # Implementation Notes
 
-For this problem, I implemented a stack to track our directories and files as we go through them. This way we can navigate through the file tree iteratively rather than recursively, which will help save us from any stack overflow issues. This solution has a time and space complexity of O(n), where n is the total number of files in the file system.
+For this problem, I implemented a stack to track our directories and files as we go through them. This way we can navigate through the file tree iteratively rather than recursively, which will help save us from any stack overflow issues. This solution has a time and space complexity of O(n * m), where n is the total number of files in the file system and m is the length of the individual file. The worst-case scenario would be a large file system in which no files contain the string 'shittylistings.com' since the entirety of every file would have to be iterated through.
